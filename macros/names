@@ -3,4 +3,5 @@ readserialline
 writeserial
 openserial
 serialstatus
+seriallist
 closeserial
