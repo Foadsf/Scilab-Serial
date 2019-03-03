@@ -1,4 +1,5 @@
 readserial
+readserialline
 writeserial
 openserial
 serialstatus
