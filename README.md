@@ -1,30 +1,24 @@
 Serial Communication Toolbox for Scilab
 =======================================
 
-This toolbox enables the use of Serial Communication in
-[Scilab](http://www.scilab.org/) and [Scicoslab](http://www.scicoslab.org/).
-This is a port of the __Portable Serial Toolbox__ for Scilab originally written
-by [Enrico Segre](http://www.weizmann.ac.il/home/fesegre/) and has been ported 
-to Scilab 5.x and released with his kind permission. It is licensed, at his 
-request, under the GPLv3. 
+This toolbox enables the use of Serial Communication in [Scilab](http://www.scilab.org/) and [Scicoslab](http://www.scicoslab.org/). This is a fork of Aditya Sengupta's repository. Which was also a fork of the __Portable Serial Toolbox__ for Scilab originally written by [Enrico Segre](http://www.weizmann.ac.il/home/fesegre/) and has been ported to Scilab 5.x and released with his kind permission. It is licensed, at his request, under the GPLv3. 
 
-Enrico does not wish to provide support for this
-toolbox anymore. Therefore, for any support related queries or otherwise,
-please raise an issue on the
-[Github project page](https://github.com/sengupta/Scilab-Serial/).
-You can reach me at [this address](mailto:aditya@sengupta.me), but I would
+Enrico does not wish to provide support for this toolbox anymore. An unfortunately Aditya Sengupta has also not updated his repo for the last 8 years (Twitter discussion [here](https://twitter.com/fsfarimani/status/1101466971546284032)). Therefore, for any support related queries or otherwise, please raise an issue on this repo. You can reach me at [this address](mailto:f.s.farimani@gmail.com), but I would
 prefer you raise an issue on Github for problems with the toolbox. 
 
-This toolbox is known to have worked so far on Linux based systems and on
-Windows (up till Windows 7). 
+This toolbox is known to have worked so far on Linux based systems and on Windows (up till Windows 10 version 1809). 
 
-The implementation via TCL wrappers is certainly suboptimal, but shouldn't be such
-a penalty, given the low bandwidth and the intrinsic asynchronous mode of serial 
-communication. And mainly, it relieves the developer from supporting many platforms 
-at once. 
+The implementation via TCL wrappers is certainly suboptimal, but shouldn't be such a penalty, given the low bandwidth and the intrinsic asynchronous mode of serial communication. And mainly, it relieves the developer from supporting many platforms at once. 
 
 Release Notes: 
 ==============
+03/03/2019:
+----------
+ * now accepts com ports more than 9
+ * the issue with `eval` deprecation resolved
+ * `readserialline` finction added to read the serial port line by line (more info [here](https://stackoverflow.com/a/54960839/4999991))
+ * unnecessary `binary scan` removed. 
+ * code clean up
 
 15/4/2012:
 ----------
