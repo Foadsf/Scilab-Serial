@@ -10,6 +10,10 @@ This toolbox is known to have worked so far on Linux based systems and on Window
 
 The implementation via TCL wrappers is certainly suboptimal, but shouldn't be such a penalty, given the low bandwidth and the intrinsic asynchronous mode of serial communication. And mainly, it relieves the developer from supporting many platforms at once. 
 
+A demonstration of the Toolbox coupled with SimulIDE (instructions [here](https://www.reddit.com/r/electronics/comments/awkoka/creating_a_virtual_arduino_in_simulide_and_serial/ehn6d0r)):
+
+<center><img src="https://media.giphy.com/media/pjKdmXLikB5PpzeWBx/giphy.gif" alt="Demonstration" style="width:600px;"/></center>
+
 Release Notes: 
 ==============
 03/03/2019:
