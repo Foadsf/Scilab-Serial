@@ -7,7 +7,7 @@ function result=writeserial(h,buf)
                   " [binary format c* {"+msprintf(" %d",ascii(buf(:))')+..
                   "}]; flush "+h+"}]")
    end
-   result=-eval(TCL_GetVar("writeresult"));
+   result=-evstr(TCL_GetVar("writeresult"));
 endfunction
 
 
