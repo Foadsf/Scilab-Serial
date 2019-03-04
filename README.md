@@ -23,6 +23,7 @@ Release Notes:
  * `readserialline` finction added to read the serial port line by line (more info [here](https://stackoverflow.com/a/54960839/4999991))
  * unnecessary `binary scan` removed. 
  * code clean up
+ * first implementation of `seriallist`
 
 15/4/2012:
 ----------
