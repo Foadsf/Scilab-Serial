@@ -1,3 +1,8 @@
+**[A new revision of this libary is being developed here](https://gist.github.com/Foadsf/44fe9b5e2bcb02b22392adf6d8f7a871)**
+
+
+
+
 Serial Communication Toolbox for Scilab
 =======================================
 
